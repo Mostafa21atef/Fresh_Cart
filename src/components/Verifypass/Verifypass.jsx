@@ -40,7 +40,7 @@ export default function Verifypass() {
       <div>
         <input
           type="text"
-          className="w-[30%] p-2 border my-3 focus:border-emerald-500 focus:outline-none"
+          className="w-full p-2 border my-3 focus:border-emerald-500 focus:outline-none"
           placeholder="Enter reset code"
           value={resetCode}
           onChange={(e) => setResetCode(e.target.value)} 
