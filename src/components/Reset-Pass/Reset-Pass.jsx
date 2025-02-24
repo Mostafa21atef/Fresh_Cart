@@ -40,7 +40,7 @@ export default function ResetPass() {
   };
 
   return <> 
-  <div className='mx-auto w-1/2 p-10 rounded-lg bg-[#F8F9FA] shadow-lg mt-10'>
+  <div className='mx-auto w-full lg:w-1/2 p-10 rounded-lg bg-[#F8F9FA] shadow-lg mt-10'>
   <h1 className='text-emerald-500 text-2xl text-center my-5 font-bold'>Account Recovery</h1>
   <div className="mb-6">
   <label htmlFor="email" className="text-start block mb-2 text-2xl text-emerald-500">Email Address</label>
